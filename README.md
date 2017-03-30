@@ -1,2 +1,2 @@
 # Java_learning
-Learning through examples
+Learning JAVA programming language through examples
