@@ -1,0 +1,36 @@
+
+public class MetiKocke {
+
+	public static void main(String[] args) {
+		System.out.print("Stevilo metov: ");
+		int n = BranjePodatkov.preberiInt();
+		int stevilo1 = 0, stevilo2 = 0, stevilo3 = 0, stevilo4 = 0, stevilo5 = 0, stevilo6 = 0;
+		for(int i = 1; i < n; i++){
+			int met = (int)(6*Math.random()+1);
+			System.out.print(met + "\n");
+			
+			switch(met){
+				case 1: 
+					stevilo1++;
+					break;
+				case 2:
+					stevilo2++;
+					break;
+				case 3:
+					stevilo3++;
+					break;
+				case 4:
+					stevilo4++;
+					break;
+				case 5:
+					stevilo5++;
+					break;
+				case 6:
+					stevilo6++;
+					break;
+			}
+		}
+		System.out.print("Število 1: " + stevilo1 + "\nŠtevilo 2: " + stevilo2 + "\nŠtevilo 3: " + stevilo3 + "\nŠtevilo 4: " + stevilo4 + "\nŠtevilo 5: " + stevilo5 + "\nŠtevilo 6: " + stevilo6);
+	}
+
+}
